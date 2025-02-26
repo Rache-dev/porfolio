@@ -1,0 +1,26 @@
+.logo {
+    color: var(--lightest-slate);
+    font-size: 28px;
+  }
+  .nav-links div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none !important;
+    color: var(--lightest-slate) !important;
+    font-family: "NTR", sans-serif;
+    cursor: pointer;
+  }
+
+  .nav-links div:hover {
+    color: var(--green-bright) !important;
+  }
+  .navbar-brand {
+    color: var(--lightest-slate) !important;
+  }
+
+  .nav-content{
+    align-items: center;
+    padding: 1rem 1.75rem;
+    background-color: var(--navy);
+  }

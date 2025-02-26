@@ -1,0 +1,9 @@
+.footer-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.75rem;
+    /* border-top: 1px solid var(--light-navy); */
+    color: var(--slate);
+    font-size: 18px;
+    font-family: "NTR", sans-serif;
+}
