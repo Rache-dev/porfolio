@@ -58,7 +58,7 @@ const NavBar = () => {
                   <div className="flex space-x-4 nav-links">
                     {navigation.map((nav) => (
                       <div key={nav.name} onClick={() => scrollTO(nav.href)} className={classNames(
-                        nav.current ? ' text-white' :  'bg-gray-700 hover:bg-gray-700 hover:text-white',
+                        nav.current ? ' text-white' :  'hover:bg-gray-700 hover:text-white',
                         'rounded-md px-3 py-2 text font-medium',
                       )}>{nav.name}</div>
                       ))}
