@@ -12,6 +12,7 @@
     color: var(--lightest-slate);
     font-size: 76px;
     margin-top: -10px;
+    text-align: start;
 }
 .index-module_type__E-SaG::after {
     color: var(--green-bright);
@@ -23,6 +24,7 @@
     font-size: 62px;
     line-height: 0.9;
     margin-top: -5px;
+    text-align: start;
     color: var(--slate);
   }
   .intro-name {
@@ -36,6 +38,7 @@
     font-family: "NTR", sans-serif;
     color: var(--green-bright);
     font-weight: 300;
+    text-align: start;
     font-size: 24px;
   }
   
@@ -76,7 +79,6 @@
       padding-left: unset;
       padding-top: unset;
       margin: 0;
-      align-items: center;
     }
   
     .intro-title {

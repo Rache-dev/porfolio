@@ -58,7 +58,7 @@ const NavBar = () => {
                   <div className="flex space-x-4 nav-links">
                     {navigation.map((nav) => (
                       <div key={nav.name} onClick={() => scrollTO(nav.href)} className={classNames(
-                        nav.current ? ' text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        nav.current ? ' text-white' :  'bg-gray-700 hover:bg-gray-700 hover:text-white',
                         'rounded-md px-3 py-2 text font-medium',
                       )}>{nav.name}</div>
                       ))}
@@ -83,11 +83,11 @@ const NavBar = () => {
               {navigation.map((item) => (
                 <DisclosureButton
                   key={item.name}
-                  as="a"
+                  as="a" onClick={() => scrollTO(item.href)}
                   href={item.href}
                   aria-current={item.current ? 'page' : undefined}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-700 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium',
                   )}>{item.name}
                 </DisclosureButton>

@@ -102,7 +102,9 @@
       height: unset !important;
       flex-direction: column !important;
     }
-  
+    .css-1qltlow-MuiTabs-indicator {
+      background-color: var(--green-bright) !important;
+    }
     .makeStyles-root-1 {
       height: unset !important;
       width: unset;

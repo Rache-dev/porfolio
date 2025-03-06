@@ -24,3 +24,9 @@
     padding: 1rem 1.75rem;
     background-color: var(--navy);
   }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+      display: none;
+    }
+  }
